@@ -62,7 +62,7 @@ def generate_report(target):
 
     # Generate HTML
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    report_dir = f"/root/visionx_reports"
+    report_dir = f"/home/visionx/visionx_reports"
     os.makedirs(report_dir, exist_ok=True)
     report_file = f"{report_dir}/{target}_{timestamp}.html"
 
